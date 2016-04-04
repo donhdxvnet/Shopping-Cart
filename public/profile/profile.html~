@@ -1,0 +1,13 @@
+<div class="text-center">
+
+	<form ng-controller="ProfileCtrl" ng-submit="register()">
+	Name: <input type="text" name="firstname" ng-model="formData.firstname">
+	&nbsp;
+     	Email: <input type="email" name="email" ng-model="formData.email">
+     	<input class="btn btn-danger" type="submit" value="Register">
+	</form> 
+	<br/><br/>
+	<a href="#/checkout" class="btn btn-danger">Checkout <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+	<a href="#/profile" class="btn btn-danger">Profile <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+              
+</div>
